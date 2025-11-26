@@ -10,7 +10,11 @@ and fine-tunning it to the specifics needed by the engineer. In the project a cu
 to the fine-tuned model. The project takes 2500 images of cats and dogs and classifies them using the custom model and existing model and 
 compares the results and metrics.
 
-**Key Features:**
+
+## Project Setup:
+![img.png](images/setup.png)
+
+## **Key Features:**
 - **Data Preprocessing:**
   - Load kaggle cats & dogs dataset filled with cats and dogs images
   - Reduces train dataset going from 25,000 images to 5000 images (2,500 of each) and organizes them into specific directories labeld
@@ -86,6 +90,7 @@ compares the results and metrics.
     the average metrics over the test set still are in favvor of VGG16. Misclassifgications occur mainly with blurry or partial iamges. 
     Overall, the pre-trained model offers better performance and faster convergence overall. 
     The custom CNN is still valauble for experimaentation and can get to the level of the pre trained model with time.
+
 
 🤝 Contributing
 This is a Practical Lab developed for CSNC8010. If any questions arise do not hesitate to contact the project member.
